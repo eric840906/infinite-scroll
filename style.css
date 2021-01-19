@@ -1,0 +1,40 @@
+body {
+  background-color: #f5f4f4;
+}
+a {
+  text-decoration: none;
+  color: #989898e8;
+}
+a:hover {
+  color: rgb(105, 105, 105);
+}
+#loading {
+  display: none;
+  position: fixed;
+}
+.landing {
+  height: 95vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#data-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+}
+#data-list > div {
+  background-image: linear-gradient(45deg, #ffffff00 46%, #000000e8 109%);
+  box-shadow: 0 5px 13px -1px black;
+  padding: 10px;
+}
+#data-list div + div {
+  margin-top: 30px;
+}
+#data-list h2 {
+  text-transform: capitalize;
+  color: #393838;
+}
